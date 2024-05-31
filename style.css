@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Sevillana&display=swap');
+
+*{
+    margin: 0px;
+    border: border-box;
+}
+
+#navbar
+{
+    height: 60px;
+    background-color: #151515;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#navbar-logo
+
+{
+    height: 50px;
+    width: 100px;
+    padding-right: 150px; 
+}
+
+#logo
+{
+    height: 50px;
+    width: 50px;
+    background-image: url(ps-high-resolution-logo-transparent.png);
+    background-size:cover;
+}
+#nav-search
+{
+    display: flex;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+ }
+ 
+ #nav-search:hover
+ {
+    border: wheat, 2px, solid;
+ }
+ .search-select
+ {
+    width: 5px;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px;
+ }
+
+ .search-input
+{
+    width: 100%; 
+    font-size: 1rem; 
+}
+
+.search-icon
+{
+    width: 45px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #C73659;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+}    
+
+span
+{
+    font-size: 0.7rem;
+    color: white;
+}
+.nav-second
+{
+    font-size: 0.85rem; 
+}
+.nav-second:hover
+{
+    text-decoration: underline;
+}
+
+.nav-return:hover
+{
+    text-decoration: underline;
+}
+
+.nav-cart:hover
+{
+    text-decoration: underline;
+}
+
+.nav-cart i{
+    font-size:30px;
+}
+.pannel
+{
+    height: 40px;
+    background-color: #A91D3A;
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+    color: white;
+}
+
+.pannel-opt p 
+{
+    display: inline;
+    margin-left: 20px;
+}
+
+.pannel-opt
+{
+   width: 70%;
+}
+
+.hero-section
+{
+    background-image: url("furniture.jpg");
+    height: 900px; 
+    background-size: cover;
+}
+
+.hero-msg
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 10px; 
+}
+.hero-msg a
+{
+    color: blueviolet;
+}
+.hero-msg a:hover
+{
+    text-decoration: underline;
+}
+
+
+.tagline{
+    font-size:50px; 
+    text-align: center;
+    padding-top: 110px; 
+    color: #333333;
+    font-family: "Anton", sans-serif;
+      }
+    
+        
+.box{
+    border: 2px, solid, black;
+    height: 300px; 
+    width: 23%;
+     background-color: black;
+     color: white;
+     margin-top: 30px;
+     border-radius: 10px;
+     overflow: hidden;
+     transition: all 5s;
+ }
+
+.shop-sec{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#A91D3A;
+}
+
+.box-img
+{
+    height: 250px;
+    background-size:cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.box :hover  
+{
+     transform: scale(1.2);
+}
+
+.foot-pannel{
+    background-color: grey;
+    color: white;
+    padding-top: 20px;
+    height: 40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+.foot-pannel2{
+    background-color: black;
+    height: 300px;
+    color: white; 
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+ul a{
+    display: block;
+    text-size-adjust: 0.8rem;
+    margin-top: 10px;
+}
+
+.foot-pannel3{
+    background-color: black;
+    border-top: white 1px solid ;
+    height: 70px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.logo
+{
+           
+    height: 50px;
+    width: 50px;
+    background-image: url(ps-high-resolution-logo-transparent.png);
+    background-size:cover;
+}
